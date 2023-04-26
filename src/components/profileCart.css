@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space;
+    flex-direction: column;
+    max-width: 350px;
+    box-shadow: 6px 4px 5px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 6px 4px 5px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 6px 4px 5px 3px rgba(0,0,0,0.67);
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.heading-3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.para {
+    font-size: 12px;
+    width: 60%;
+}
+
+.price {
+    font-weight: 500;
+    color: orange;
+}
+
+.rating {
+    font-size: 12px;
+    color: rgb(255, 106, 0);
+    font-weight: 400;
+}
+
+.btn {
+    background-color: rgb(255, 106, 0); 
+    width: 60%;
+    padding: 10px;
+}
